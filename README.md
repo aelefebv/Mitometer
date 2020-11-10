@@ -210,3 +210,6 @@ RAM
 
 ### ALL  
 Mitometer has been tested only on MATLAB R2020a and R2020b.
+
+## License
+This project is covered under the **GNU General Public 3.0 License**.
