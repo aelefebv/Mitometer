@@ -40,7 +40,11 @@ for i = 1:length(fileName)
         for zNum = 1:numZ
             for frameNum = 1:numFrames{i}/numZ
                 tifIm.setDirectory((zNum)+(frameNum*numZ-numZ));
-                importedImage{i}(:,:,frameNum,zNum) = tifIm.read();
+                if imInfo(1).BitDepth ~= 8
+                    importedImage{i}(:,:,frameNum,zNum) = uint8(255 * mat2gray(tifIm.read()));
+                else
+                    importedImage{i}(:,:,frameNum,zNum) = tifIm.read();
+                end
             end
         end
         tifIm.close();
@@ -49,7 +53,11 @@ for i = 1:length(fileName)
 
         for frameNum = 1:numFrames{i}
             tifIm.setDirectory(frameNum);
-            importedImage{i}(:,:,frameNum) = tifIm.read();
+            if imInfo(1).BitDepth ~= 8
+                importedImage{i}(:,:,frameNum) = uint8(255 * mat2gray(tifIm.read()));
+            else
+                importedImage{i}(:,:,frameNum) = tifIm.read();
+            end
         end
         tifIm.close();
     end
