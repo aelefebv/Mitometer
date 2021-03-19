@@ -1,0 +1,94 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3054412720" file="/Users/aelefebv/Documents/Code/GitHub/Mitometer/Source Code/Mitometer.prj" location="/Users/aelefebv/Documents/Code/GitHub/Mitometer/Source Code" name="Mitometer" target="target.mlapps" target-name="Package App">
+    <param.appname>Mitometer</param.appname>
+    <param.authnamewatermark>Austin E.Y.T. Lefebvre</param.authnamewatermark>
+    <param.email>austin.e.lefebvre@gmail.com</param.email>
+    <param.company>University of California, Irvine</param.company>
+    <param.icon>${PROJECT_ROOT}/Mitometer_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/Mitometer_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Mitometer_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Mitometer_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Automated mitochondria segmentation and tracking in live-cell time-lapse images.</param.summary>
+    <param.description>Mitometer is a MATLAB App containing tools for automated mitochondrial segmentation and tracking, and allows for visualization and preliminary data analysis of exportable quantitative data of individual mitochondrion motility and morphology features.</param.description>
+    <param.screenshot>/private/var/folders/sg/nm_03jx97tzgsrnyldspv6380000gn/T/tpc0640645_9a25_4349_a8dd_ccb2f261736e.png</param.screenshot>
+    <param.version>0.2</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/aelefebv/Documents/Code/GitHub/Mitometer</param.output>
+    <param.guid>77431685-d7f7-41ea-a213-6d09584a1c4e</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>/Applications/Fiji.app/scripts/ImageJ.m</file>
+      <file>${PROJECT_ROOT}/addToTrack.m</file>
+      <file>${PROJECT_ROOT}/angle0to180.m</file>
+      <file>${PROJECT_ROOT}/areaThreshold.m</file>
+      <file>${PROJECT_ROOT}/checkFissionArea.m</file>
+      <file>${PROJECT_ROOT}/checkFusionArea.m</file>
+      <file>${PROJECT_ROOT}/checkUpdates.m</file>
+      <file>${PROJECT_ROOT}/diffuseBgRemove.m</file>
+      <file>${PROJECT_ROOT}/edgeCenterMito.m</file>
+      <file>${PROJECT_ROOT}/flipIJIm.m</file>
+      <file>${PROJECT_ROOT}/flipIJIm3D.m</file>
+      <file>${PROJECT_ROOT}/gaussFilter.m</file>
+      <file>${PROJECT_ROOT}/getDeltaMatrix.m</file>
+      <file>${PROJECT_ROOT}/getDistanceMatrix.m</file>
+      <file>${PROJECT_ROOT}/getDynamicStats.m</file>
+      <file>${PROJECT_ROOT}/getDynamics.m</file>
+      <file>${PROJECT_ROOT}/getExtremaMatrixFission.m</file>
+      <file>${PROJECT_ROOT}/getExtremaMatrixFusion.m</file>
+      <file>${PROJECT_ROOT}/getFrameMatrix.m</file>
+      <file>${PROJECT_ROOT}/getMSD.m</file>
+      <file>${PROJECT_ROOT}/getNN.m</file>
+      <file>${PROJECT_ROOT}/getNNExtrema.m</file>
+      <file>${PROJECT_ROOT}/getTrackingWeights.m</file>
+      <file>${PROJECT_ROOT}/groupingApp.mlapp</file>
+      <file>${PROJECT_ROOT}/openIJ.m</file>
+      <file>${PROJECT_ROOT}/openTifs.m</file>
+      <file>${PROJECT_ROOT}/optimizeSigmaThresh.m</file>
+      <file>${PROJECT_ROOT}/start2D.m</file>
+      <file>${PROJECT_ROOT}/thresholdImage.m</file>
+      <file>${PROJECT_ROOT}/trackLengthThreshold.m</file>
+      <file>${PROJECT_ROOT}/trackMitochondria.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/aelefebv/Documents/Code/GitHub" name="Mitometer" optional="false">/Users/aelefebv/Documents/Code/GitHub/Mitometer</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2020a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.15.7</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
