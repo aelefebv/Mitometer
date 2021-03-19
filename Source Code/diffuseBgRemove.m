@@ -38,7 +38,7 @@ for frameNum = 1:size(Im,3)
         %median disk filter.
        
         circleFilt{circleFiltNum-1} = fspecial('disk',circleSize)>0;
-        ImMedFiltered(:,:,circleFiltNum) = ordfilt2(ImMedFiltered(:,:,1),round(0.5*numel(find(circleFilt{circleFiltNum-1}))),circleFilt{circleFiltNum-1});
+        ImMedFiltered(:,:,circleFiltNum) = ordfilt2(ImMedFiltered(:,:,1),round(0.5*numel(find(circleFilt{circleFiltNum-1}))),circleFilt{circleFiltNum-1},'symmetric');
     end
 
     %We then find the stack-wide minimum value for each pixel to create the
