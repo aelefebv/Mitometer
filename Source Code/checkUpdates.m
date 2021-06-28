@@ -1,4 +1,6 @@
-function updates = checkUpdates(thisVersion)
+function updates = checkUpdates()
+
+thisVersion = textread('version.txt');
 
 [newVersion,status] = urlread('https://raw.githubusercontent.com/aelefebv/Mitometer/Revisions/Source%20Code/version.txt');
 

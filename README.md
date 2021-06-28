@@ -2,7 +2,7 @@
 by Austin E.Y.T. Lefebvre
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4265280.svg)](https://doi.org/10.5281/zenodo.4265280)  
-[![GitHub license](https://img.shields.io/github/license/aelefebv/Mitometer)](https://github.com/aelefebv/Mitometer/blob/main/LICENSE)
+![GitHub](https://img.shields.io/github/license/aelefebv/Mitometer)
 
 `Mitometer` is a MATLAB App containing tools for automated mitochondrial segmentation and tracking, and allows for visualization and preliminary data analysis of exportable quantitative data of individual mitochondrion motility and morphology features.
 
