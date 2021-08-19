@@ -9,6 +9,13 @@ by Austin E.Y.T. Lefebvre
 A version of this README is available with a step-by-step image walkthrough in the MitometerManual PDF after download.
 
 # Installation
+
+*Note: You must have these MATLAB Add-Ons installed: 
+
+"Statistics and Machine Learning Toolbox"(https://www.mathworks.com/help/stats/)
+
+"Image Processing Toolbox" (https://www.mathworks.com/help/images/)
+
 ## DOWNLOAD
 The Mitometer program is written in MATLAB (MathWorks). The MATLAB GUI Mitometer app and corresponding source code is freely available online at https://github.com/aelefebv/Mitometer.
 ## APP EXECUTION
