@@ -8,6 +8,10 @@ by Austin E.Y.T. Lefebvre
 
 A version of this README is available with a step-by-step image walkthrough in the MitometerManual PDF after download.
 
+If you used this tool, please cite our original paper (https://doi.org/10.1038/s41592-021-01234-z)!
+
+`Lefebvre, A.E.Y.T., Ma, D., Kessenbrock, K. et al. Automated segmentation and tracking of mitochondria in live-cell time-lapse images. Nat Methods (2021). https://doi.org/10.1038/s41592-021-01234-z`
+
 # Installation
 
 *Note: You must have these MATLAB Add-Ons installed: 
