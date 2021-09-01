@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="521276932" file="/Users/austin/Documents/GitHub/Mitometer/Source Code/Mitometer App.prj" location="/Users/austin/Documents/GitHub/Mitometer/Source Code" name="Mitometer App" target="target.mlapps" target-name="Package App">
+    <param.appname>Mitometer App</param.appname>
+    <param.authnamewatermark>Austin E. Y. T. Lefebvre</param.authnamewatermark>
+    <param.email>aelefebv@uci.edu</param.email>
+    <param.company>University of California, Irvine</param.company>
+    <param.icon>${PROJECT_ROOT}/Mitometer App_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/Mitometer App_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Mitometer App_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Mitometer App_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Automated segmentation and tracking of mitochondria in live-cell time-lapse images.</param.summary>
+    <param.description>For more information please visit our article here:
+https://www.nature.com/articles/s41592-021-01234-z
+and our GitHub page here:
+https://github.com/aelefebv/Mitometer</param.description>
+    <param.screenshot>/private/var/folders/12/q2chpl5s1l3960ql9mn92mvh0000gn/T/tp570e6b34_2204_46a6_a7d9_8daa37882037.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>Image Processing Toolbox</item>
+      <item>Statistics and Machine Learning Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>17</item>
+      <item>19</item>
+    </param.products.id>
+    <param.products.version>
+      <item>11.3</item>
+      <item>12.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>/Users/austin/Documents/GitHub/Mitometer</param.output>
+    <param.guid>cff605f8-30b4-432d-ae4f-39f954a1dd59</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/GUI2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/austin/Documents/GitHub" name="Mitometer" optional="false">/Users/austin/Documents/GitHub/Mitometer</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.16</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
