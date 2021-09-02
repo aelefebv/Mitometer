@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="521276932" file="/Users/austin/Documents/GitHub/Mitometer/Source Code/Mitometer App.prj" location="/Users/austin/Documents/GitHub/Mitometer/Source Code" name="Mitometer App" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2407348770" file="/Users/austin/Documents/GitHub/Mitometer/Source Code/Mitometer App.prj" location="/Users/austin/Documents/GitHub/Mitometer/Source Code" name="Mitometer App" target="target.mlapps" target-name="Package App">
     <param.appname>Mitometer App</param.appname>
     <param.authnamewatermark>Austin E. Y. T. Lefebvre</param.authnamewatermark>
     <param.email>aelefebv@uci.edu</param.email>
@@ -15,8 +15,8 @@
 https://www.nature.com/articles/s41592-021-01234-z
 and our GitHub page here:
 https://github.com/aelefebv/Mitometer</param.description>
-    <param.screenshot>/private/var/folders/12/q2chpl5s1l3960ql9mn92mvh0000gn/T/tp570e6b34_2204_46a6_a7d9_8daa37882037.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot>/private/var/folders/12/q2chpl5s1l3960ql9mn92mvh0000gn/T/tp74370c41_b458_4472_b611_211bbdbc9db8.png</param.screenshot>
+    <param.version>1.0.1</param.version>
     <param.products.name>
       <item>Image Processing Toolbox</item>
       <item>Statistics and Machine Learning Toolbox</item>
@@ -36,7 +36,6 @@ https://github.com/aelefebv/Mitometer</param.description>
       <param.authnamewatermark />
       <param.email />
       <param.company />
-      <param.version />
       <param.platforms />
     </unset>
     <fileset.main>
